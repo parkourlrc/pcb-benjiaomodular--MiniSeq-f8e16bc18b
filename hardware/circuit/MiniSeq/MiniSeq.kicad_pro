@@ -633,7 +633,7 @@
       "workbook_filename": ""
     },
     "page_layout_descr_file": "",
-    "plot_directory": "../../../../home/benjiao/Documents/",
+    "plot_directory": "svg-schem/",
     "spice_adjust_passive_values": false,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
@@ -652,6 +652,10 @@
     [
       "3dbafd42-2954-4593-8149-2e3a22aa8758",
       "Power"
+    ],
+    [
+      "aa62e8b0-e413-4237-aa7e-4e171c9a3370",
+      "Outputs"
     ]
   ],
   "text_variables": {}

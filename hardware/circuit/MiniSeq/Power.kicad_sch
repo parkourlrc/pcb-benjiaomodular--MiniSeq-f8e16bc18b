@@ -4,6 +4,11 @@
 	(generator_version "8.0")
 	(uuid "16ac537f-d87c-4988-899e-b22ec47c84bd")
 	(paper "A4")
+	(title_block
+		(title "MiniSeq - Power")
+		(rev "v0.2")
+		(company "benjiaomodular")
+	)
 	(lib_symbols
 		(symbol "+12V_1"
 			(power)
@@ -3174,7 +3179,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3ce8eea2-fcf7-4070-ba3f-829120735a49")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR051"
 			(at 153.67 54.61 0)
 			(effects
 				(font
@@ -3224,7 +3229,7 @@
 		(instances
 			(project "MiniSeq"
 				(path "/f5615d92-88e4-472e-9572-46409bc33dff/3dbafd42-2954-4593-8149-2e3a22aa8758"
-					(reference "#PWR036")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -3595,7 +3600,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6036adcd-e7fb-47dd-9385-d8a8f86a3dbd")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR043"
 			(at 73.66 48.26 0)
 			(effects
 				(font
@@ -3645,7 +3650,7 @@
 		(instances
 			(project "MiniSeq"
 				(path "/f5615d92-88e4-472e-9572-46409bc33dff/3dbafd42-2954-4593-8149-2e3a22aa8758"
-					(reference "#PWR042")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -3677,7 +3682,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
+		(property "Footprint" "Package_TO_SOT_SMD:TO-263-2"
 			(at 164.465 58.42 0)
 			(effects
 				(font
@@ -3751,7 +3756,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "76875437-17c1-4d9c-8d95-2d1b72cc72d2")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR046"
 			(at 101.6 81.28 0)
 			(effects
 				(font
@@ -3801,7 +3806,7 @@
 		(instances
 			(project "MiniSeq"
 				(path "/f5615d92-88e4-472e-9572-46409bc33dff/3dbafd42-2954-4593-8149-2e3a22aa8758"
-					(reference "#PWR027")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -3816,7 +3821,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "79f11476-1495-4631-bbe0-1b674c0fe10b")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR047"
 			(at 125.73 46.99 0)
 			(effects
 				(font
@@ -3866,7 +3871,7 @@
 		(instances
 			(project "MiniSeq"
 				(path "/f5615d92-88e4-472e-9572-46409bc33dff/3dbafd42-2954-4593-8149-2e3a22aa8758"
-					(reference "#PWR031")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -3881,7 +3886,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7cd1c271-cea1-40b4-a119-8dffd9ecdaea")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR050"
 			(at 139.7 76.2 0)
 			(effects
 				(font
@@ -3931,7 +3936,7 @@
 		(instances
 			(project "MiniSeq"
 				(path "/f5615d92-88e4-472e-9572-46409bc33dff/3dbafd42-2954-4593-8149-2e3a22aa8758"
-					(reference "#PWR035")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -3948,7 +3953,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7d437d54-0bde-4fcf-90a7-3005e5fa117d")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR044"
 			(at 73.66 74.93 0)
 			(effects
 				(font
@@ -3998,7 +4003,7 @@
 		(instances
 			(project "MiniSeq"
 				(path "/f5615d92-88e4-472e-9572-46409bc33dff/3dbafd42-2954-4593-8149-2e3a22aa8758"
-					(reference "#PWR043")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -4014,7 +4019,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "97d62f81-fa98-4b25-88f1-a09ec27c706d")
-		(property "Reference" "C6"
+		(property "Reference" "C8"
 			(at 177.8 58.8009 0)
 			(effects
 				(font
@@ -4068,7 +4073,7 @@
 		(instances
 			(project "MiniSeq"
 				(path "/f5615d92-88e4-472e-9572-46409bc33dff/3dbafd42-2954-4593-8149-2e3a22aa8758"
-					(reference "C6")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -4220,7 +4225,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a330efdd-2842-4781-a9c3-47fa980d73c8")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR042"
 			(at 62.23 73.66 0)
 			(effects
 				(font
@@ -4270,7 +4275,7 @@
 		(instances
 			(project "MiniSeq"
 				(path "/f5615d92-88e4-472e-9572-46409bc33dff/3dbafd42-2954-4593-8149-2e3a22aa8758"
-					(reference "#PWR041")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -4285,7 +4290,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "af2b645c-0f7c-480b-9036-08cfda0a5526")
-		(property "Reference" "R15"
+		(property "Reference" "R16"
 			(at 135.89 55.88 90)
 			(effects
 				(font
@@ -4355,7 +4360,7 @@
 		(instances
 			(project "MiniSeq"
 				(path "/f5615d92-88e4-472e-9572-46409bc33dff/3dbafd42-2954-4593-8149-2e3a22aa8758"
-					(reference "R15")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -4371,7 +4376,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b674a356-ce8a-46ab-a0a0-3614641b7020")
-		(property "Reference" "C3"
+		(property "Reference" "C6"
 			(at 92.456 58.42 0)
 			(effects
 				(font
@@ -4425,7 +4430,7 @@
 		(instances
 			(project ""
 				(path "/f5615d92-88e4-472e-9572-46409bc33dff/3dbafd42-2954-4593-8149-2e3a22aa8758"
-					(reference "C3")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -4441,7 +4446,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d3f6be9d-ac9b-4461-ab76-0d6e49b46252")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR053"
 			(at 176.53 54.61 0)
 			(effects
 				(font
@@ -4491,7 +4496,7 @@
 		(instances
 			(project "MiniSeq"
 				(path "/f5615d92-88e4-472e-9572-46409bc33dff/3dbafd42-2954-4593-8149-2e3a22aa8758"
-					(reference "#PWR040")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -4506,7 +4511,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d4b9d85b-2fbf-470c-8590-87f9db169e86")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR048"
 			(at 125.73 81.28 0)
 			(effects
 				(font
@@ -4556,7 +4561,7 @@
 		(instances
 			(project "MiniSeq"
 				(path "/f5615d92-88e4-472e-9572-46409bc33dff/3dbafd42-2954-4593-8149-2e3a22aa8758"
-					(reference "#PWR032")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -4571,7 +4576,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d4efb629-e802-4b8e-9b78-64eb92c3701f")
-		(property "Reference" "R16"
+		(property "Reference" "R17"
 			(at 135.89 66.04 90)
 			(effects
 				(font
@@ -4641,7 +4646,7 @@
 		(instances
 			(project "MiniSeq"
 				(path "/f5615d92-88e4-472e-9572-46409bc33dff/3dbafd42-2954-4593-8149-2e3a22aa8758"
-					(reference "R16")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -4726,7 +4731,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "deff1c52-0b2a-4786-b816-05defd1605ee")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR049"
 			(at 139.7 54.61 0)
 			(effects
 				(font
@@ -4776,7 +4781,7 @@
 		(instances
 			(project "MiniSeq"
 				(path "/f5615d92-88e4-472e-9572-46409bc33dff/3dbafd42-2954-4593-8149-2e3a22aa8758"
-					(reference "#PWR034")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -4861,7 +4866,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f129c0b2-1243-431f-8245-df3d4b955c00")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR045"
 			(at 101.6 46.99 0)
 			(effects
 				(font
@@ -4911,7 +4916,7 @@
 		(instances
 			(project "MiniSeq"
 				(path "/f5615d92-88e4-472e-9572-46409bc33dff/3dbafd42-2954-4593-8149-2e3a22aa8758"
-					(reference "#PWR026")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -4926,7 +4931,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f8875d71-8766-4ea8-bf6e-25049c5d6ce9")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR052"
 			(at 163.83 76.2 0)
 			(effects
 				(font
@@ -4976,7 +4981,7 @@
 		(instances
 			(project "MiniSeq"
 				(path "/f5615d92-88e4-472e-9572-46409bc33dff/3dbafd42-2954-4593-8149-2e3a22aa8758"
-					(reference "#PWR039")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
